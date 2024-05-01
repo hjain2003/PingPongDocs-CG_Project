@@ -1,11 +1,10 @@
-
-
 body {
+    overflow-x: hidden;
     background-color: rgb(19, 25, 43);
 }
 
 #made-by{
-    margin-left: 80px;
+    margin-left: 8vw;
     color: rgb(174, 174, 174);
 }
 nav {
@@ -41,19 +40,19 @@ nav h1 {
 }
 
 .heading {
-    margin-left: 80px;
+    margin-left: 8vw;
     font-size: 40px;
     font-weight: bold;
 }
 
 #link {
-    margin-left: 80px;
+    margin-left: 8vw;
     color: white;
     cursor: pointer;
 }
 
 .about {
-    margin-left: 80px;
+    margin-left: 8vw;
     /* font-size: 20px; */
     width: 1300px;
     font-size: 16.3px;
@@ -65,7 +64,7 @@ nav h1 {
 }
 
 .gif_container {
-    margin-left: 80px;
+    margin-left: 8vw;
 }
 
 /* dont change this....don't know why, but it's maintaining the color for the ordered list's points*/
@@ -82,9 +81,10 @@ li {
 #objectives,
 #challenges,
 #resources {
-    margin-left: 80px;
+    margin-left: 8vw;
     font-size: 16.5;
 }
+
 
 #make_it_white {
     color: white;
@@ -95,7 +95,7 @@ li {
 }
 
 .accordian-wrapper{
-    width: 1000px;
+    width: 80vw;
 }
 
 .acc_item{
@@ -115,6 +115,18 @@ footer{
     font-size: 20px;
     flex-direction: column;
 }
+.ref-links{
+    color: blueviolet!important;
+    text-decoration: none;
+}
+
+.full-body{
+    width:80vw;
+}
+
+.gif-insert{
+    width: 80%;
+}
 
 @media(max-width:1385px){
     html{
@@ -122,6 +134,9 @@ footer{
     }
     .about{
         font-size: 14px;
+    }
+    .overview-desc{
+        width:50%;
     }
 }
   

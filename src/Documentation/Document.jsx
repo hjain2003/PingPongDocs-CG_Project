@@ -54,6 +54,7 @@ const Document = () => {
       </nav>
       <br />
 
+      <div className="full-body">
       <span id="made-by">MADE BY : Harsh Jain(102103432), Shreeya Chatterji(102103447)</span>
       <h1 className="heading" data-aos="fade-right">Documentation</h1>
 
@@ -65,7 +66,7 @@ const Document = () => {
 
       <div className="about" id="overview">
         <h4 className="subheading" data-aos="fade-right">Overview</h4>
-        <p>
+        <p className="overview-desc">
           The Ping Pong project is an interactive game developed using HTML5 Canvas and JavaScript. The player controls
           a paddle to bounce a ball and prevent it from falling off the bottom of the screen. Each successful bounce
           earns points, while missed bounces lead to a deduction of lives. The objective is to survive as long as
@@ -77,7 +78,7 @@ const Document = () => {
 
       <div className="gif_container" id="projectgif">
         <h4 className="subheading" data-aos="fade-right">Project GIF</h4>
-        <img src={projectgif} alt="" />
+        <img src={projectgif} alt="" className="gif-insert" />
       </div>
       <br /><br />
 
@@ -105,16 +106,17 @@ const Document = () => {
                 <li>Canva</li>
             </ul>
             <li className="list_subheading">Websites/Videos for reference</li>
-            <ul data-aos="fade-up">
-                <li>ChatGPT</li>
-                <li><a href="https://stackoverflow.com/questions/9880279/how-do-i-add-a-simple-onclick-event-handler-to-a-canvas-element">https://stackoverflow.com/questions/9880279/how-do-i-add-a-simple-onclick-event-handler-to-a-canvas-element</a></li>
-                <li><a href="https://www.youtube.com/watch?v=xbdJf9MRL7A">https://www.youtube.com/watch?v=xbdJf9MRL7A</a></li>
-                <li><a href="https://www.youtube.com/watch?v=XYzA_kPWyJ8&list=PLpPnRKq7eNW3We9VdCfx9fprhqXHwTPXL&index=6">https://www.youtube.com/watch?v=XYzA_kPWyJ8&list=PLpPnRKq7eNW3We9VdCfx9fprhqXHwTPXL&index=6</a></li>
-                <li><a href="https://www.youtube.com/watch?v=789weryntzM&list=PLpPnRKq7eNW3We9VdCfx9fprhqXHwTPXL&index=7">https://www.youtube.com/watch?v=789weryntzM&list=PLpPnRKq7eNW3We9VdCfx9fprhqXHwTPXL&index=7</a></li>
+            <ul className="ref-links" data-aos="fade-up">
+                <li><a href="https://chat.openai.com/chat">ChatGPT by OpenAI</a></li>
+                <li><a href="https://pixabay.com/sound-effects/search/game/">Sounds  from Pixabay</a></li>
+                <li><a href="https://stackoverflow.com/questions/9880279/how-do-i-add-a-simple-onclick-event-handler-to-a-canvas-element">How to add onClick events-errors resolution</a></li>
+                <li><a href="https://www.youtube.com/watch?v=xbdJf9MRL7A">Canvas Object Interaction Events Example</a></li>
+                <li><a href="https://www.youtube.com/watch?v=XYzA_kPWyJ8&list=PLpPnRKq7eNW3We9VdCfx9fprhqXHwTPXL&index=6">Canvas Collision Detection</a></li>
+                <li><a href="https://www.youtube.com/watch?v=789weryntzM&list=PLpPnRKq7eNW3We9VdCfx9fprhqXHwTPXL&index=7">HTML5 Collision Detection Part II</a></li>
             </ul>
         </ul>
       </div>
-      <br />
+      <br/>
 
       <div id="inspiration">
         <h4 className="subheading" data-aos="fade-right">Sources of Inspiration</h4>
@@ -179,6 +181,8 @@ const Document = () => {
         </div>
       </div>
       <br /><br />
+      </div>
+
       <footer>
         <span>Thank You!</span>
          <span>Made with ❤️ by Harsh and Shreeya</span>
