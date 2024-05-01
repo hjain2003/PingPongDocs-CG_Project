@@ -108,7 +108,7 @@ const Document = () => {
             <li className="list_subheading">Websites/Videos for reference</li>
             <ul className="ref-links" data-aos="fade-up">
                 <li><a href="https://chat.openai.com/chat">ChatGPT by OpenAI</a></li>
-                <li><a href="https://pixabay.com/sound-effects/search/game/">Sounds  from Pixabay</a></li>
+                <li><a href="https://pixabay.com/sound-effects/search/game/">Audio files from Pixabay</a></li>
                 <li><a href="https://stackoverflow.com/questions/9880279/how-do-i-add-a-simple-onclick-event-handler-to-a-canvas-element">How to add onClick events-errors resolution</a></li>
                 <li><a href="https://www.youtube.com/watch?v=xbdJf9MRL7A">Canvas Object Interaction Events Example</a></li>
                 <li><a href="https://www.youtube.com/watch?v=XYzA_kPWyJ8&list=PLpPnRKq7eNW3We9VdCfx9fprhqXHwTPXL&index=6">Canvas Collision Detection</a></li>

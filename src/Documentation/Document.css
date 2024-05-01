@@ -68,6 +68,7 @@ nav h1 {
 }
 
 /* dont change this....don't know why, but it's maintaining the color for the ordered list's points*/
+/* sorry I changed it a bit, fixed your issue -chatz */
 .accordians_container ul,
 li {
     color: rgb(201, 201, 201);
@@ -102,6 +103,10 @@ li {
     background-color: rgb(19, 25, 43);
 }
 
+.acc_item p{
+    color: white;
+}
+
 footer{
     background-color: black;
     height: 70px;
@@ -115,9 +120,9 @@ footer{
     font-size: 20px;
     flex-direction: column;
 }
-.ref-links{
-    color: blueviolet!important;
-    text-decoration: none;
+.ref-links a{
+    color: rgb(193, 126, 255)!important;
+    text-decoration: underline;
 }
 
 .full-body{
@@ -128,15 +133,15 @@ footer{
     width: 80%;
 }
 
+.overview-desc{
+    width:80vw;
+}
 @media(max-width:1385px){
     html{
         font-size: 70%;
     }
     .about{
         font-size: 14px;
-    }
-    .overview-desc{
-        width:50%;
     }
 }
   
