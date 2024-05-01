@@ -84,17 +84,17 @@ const Document = () => {
 
       <div id="resources">
        <h4 className="subheading" data-aos="fade-right">Resources and Assets</h4>
-        <ul>
+        <ul data-aos="fade-up">
             <li className="list_subheading">Audio</li>
-            <ul data-aos="fade-up">
+            <ul data-aos="fade-up" className="ref-links">
                 <li>game-start.mp3</li>
                 <li>game-over.mp3</li>
                 <li>miss_bounce.mp3</li>
                 <li>successful-bounce.mp3</li>
             </ul>
             <li className="list_subheading">Icons</li>
-            <ul data-aos="fade-up">
-                <li>unpkg.com - ionicons (for "download" icon)</li>
+            <ul data-aos="fade-up" className="ref-links">
+            <li><a href="https://pixabay.com/sound-effects/search/game/">unpkg.com - ionicons (for "download" icon)</a></li>
             </ul>
             <li className="list_subheading">Fonts</li>
             <ul data-aos="fade-up">
@@ -120,8 +120,15 @@ const Document = () => {
 
       <div id="inspiration">
         <h4 className="subheading" data-aos="fade-right">Sources of Inspiration</h4>
-        <ul>
-          <li>The OG 'Breakout' game</li>
+        <ul className="ref-links" data-aos="fade-up">
+          <li><a href="https://en.wikipedia.org/wiki/Breakout_(video_game)">The "OG" Breakout Game</a></li>
+          <li><a href="https://www.youtube.com/watch?v=VYC5Q_9-rB4">The classic windows bubbles screensaver</a></li>
+          </ul>
+          Some games we have worked on before:
+          <ul className="ref-links" data-aos="fade-up">
+          <li><a href="https://github.com/shreeyachatzz/TicTacToe_ReactNative">Tic-Tac-Toe</a></li>
+          <li><a href="https://shreeyachatzz.github.io/FlappyBirdie/">Flappy Bird</a></li>
+          <li><a href="https://github.com/shreeyachatzz/Pixel_Jump">Pixel Jump</a></li>          
         </ul>
       </div>
 
