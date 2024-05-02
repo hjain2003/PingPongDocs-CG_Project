@@ -94,7 +94,7 @@ const Document = () => {
             </ul>
             <li className="list_subheading">Icons</li>
             <ul data-aos="fade-up" className="ref-links">
-            <li><a href="https://pixabay.com/sound-effects/search/game/">unpkg.com - ionicons (for "download" icon)</a></li>
+            <li><a href="https://unpkg.com/">unpkg.com - ionicons (for "download" icon)</a></li>
             </ul>
             <li className="list_subheading">Fonts</li>
             <ul data-aos="fade-up">
@@ -123,13 +123,14 @@ const Document = () => {
         <ul className="ref-links" data-aos="fade-up">
           <li><a href="https://en.wikipedia.org/wiki/Breakout_(video_game)">The "OG" Breakout Game</a></li>
           <li><a href="https://www.youtube.com/watch?v=VYC5Q_9-rB4">The classic windows bubbles screensaver</a></li>
-          </ul>
-          Some games we have worked on before:
+          <li>Some games we have worked on before:</li>
           <ul className="ref-links" data-aos="fade-up">
           <li><a href="https://github.com/shreeyachatzz/TicTacToe_ReactNative">Tic-Tac-Toe</a></li>
           <li><a href="https://shreeyachatzz.github.io/FlappyBirdie/">Flappy Bird</a></li>
           <li><a href="https://github.com/shreeyachatzz/Pixel_Jump">Pixel Jump</a></li>          
         </ul>
+          </ul>
+          
       </div>
 
       <br />
