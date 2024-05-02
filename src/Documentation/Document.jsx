@@ -193,7 +193,7 @@ const Document = () => {
 
       <footer>
         <span>Thank You!</span>
-         <span>Made with ❤️ by Harsh and Shreeya</span>
+         <span id="moo">Made with ❤️ by <a href="https://www.linkedin.com/in/harsh--jain/">Harsh</a> and <a href="https://www.linkedin.com/in/shreeyachatterji/?originalSubdomain=in">Shreeya</a></span>
       </footer>
 
     </>
