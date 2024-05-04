@@ -81,7 +81,8 @@ li {
 #inspiration,
 #objectives,
 #challenges,
-#resources {
+#resources,
+#member-roles {
     margin-left: 8vw;
     font-size: 16.5;
 }
@@ -148,3 +149,4 @@ footer{
 #moo a{
     color: white;
 }
+

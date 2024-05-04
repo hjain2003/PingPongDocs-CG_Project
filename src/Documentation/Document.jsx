@@ -48,7 +48,10 @@ const Document = () => {
           </ScrollLink>
           &nbsp;&nbsp;
           <ScrollLink to="challenges" smooth={true} duration={500} delay={0} offset={-60} className="menu_item">
-          Challenges &nbsp;&nbsp;
+          Challenges |&nbsp;&nbsp;
+          </ScrollLink>
+          <ScrollLink to="member-roles" smooth={true} duration={500} delay={0} offset={-60} className="menu_item">
+          Members&nbsp;&nbsp;
           </ScrollLink>
         </div>
       </nav>
@@ -185,8 +188,48 @@ const Document = () => {
               <p><b>Result : </b>Successfully restricted the animations and added a "Press Enter to Play" feature</p>
             </Accordion.Body>
           </Accordion.Item>
+
+          <Accordion.Item eventKey="2">
+            <Accordion.Header className="acc-header">Challenge #3 : Responsive Design</Accordion.Header>
+            <Accordion.Body className="acc_item">
+              <p><b>Situation :</b> The game's initial version is designed for desktop browsers, but we wanted to enhance it to ensure a seamless experience across various devices, including tablets and smartphones.</p>
+              <p><b>Task : </b>Our task was to implement responsive design principles to adapt the game's layout, controls, and graphics to different screen sizes and orientations. This involved optimizing the game's UI and interactions for a range of devices, from large desktop monitors to small smartphone screens, while maintaining consistent gameplay and visual appeal. </p>
+              <p><b>Action : </b>Used `this` keyword to refer to the current instance of the class by using it like: <ul>
+                <li>`this.width` and `this.height`: to refer to the dimensions of the canvas.</li>
+                <li>`this.ctx`: to refer to the 2D rendering context of the canvas.</li>
+                <li>`this.drawPaddle()`, `this.drawBall()`, `this.movePaddle()`, etc.: to invoke methods defined within the class for drawing and manipulating game elements.</li>
+              </ul> </p>
+              <p><b>Result : </b>By implementing responsive design principles, our game now delivers a consistent and engaging experience across a wide range of devices, including desktops, laptops, tablets, and smartphones.</p>
+            </Accordion.Body>
+          </Accordion.Item>
         </Accordion>
         </div>
+      </div>
+      <br /><br />
+      <div id="member-roles">
+        <h2 className="subheading" data-aos="fade-right">Member Roles</h2>
+        <h4 className="subheading" data-aos="fade-right">Harsh Jain</h4>
+        <ul >
+          <li data-aos="fade-up">Creating Documentation Website</li>
+          <li data-aos="fade-up">Draw objects (ball, paddle, clock)</li>
+          <li data-aos="fade-up">Integrating functionalities
+            <ul data-aos="fade-up">
+              <li>Scores</li>
+              <li>Lives</li>
+              <li>Clock</li>
+            </ul>
+          </li>
+          <li data-aos="fade-up">Collission Detection Logic</li>
+        </ul>
+        <h4 className="subheading" data-aos="fade-right">Shreeya Chatterji</h4>
+        <ul data-aos="fade-up">
+          <li>Story Board Design</li>
+          <li>Animating objects (ball, paddle, clock)</li>
+          <li >Creating Game Over and Game Start</li>
+          <li >UI fixes and Content addition in Documentation Website</li>
+          <li>Adding sounds and music</li>
+          <li>Stopwatch UI fixes</li>
+        </ul>
       </div>
       <br /><br />
       </div>
