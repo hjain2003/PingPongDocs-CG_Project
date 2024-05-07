@@ -85,6 +85,16 @@ const Document = () => {
       </div>
       <br /><br />
 
+      <div id="static_mov">
+      <h4 className="subheading" data-aos="fade-right">Static and Moving Parts</h4>
+      <ul>
+        <li>Static: <span>In-game texts(score, lives, alerts) , Clock</span></li>
+        <li>Moving: <span>Ball, Paddle(through keyboard input), Clock's second hand</span></li>
+      </ul>
+      </div>
+
+      <br />
+
       <div id="resources">
        <h4 className="subheading" data-aos="fade-right">Resources and Assets</h4>
         <ul data-aos="fade-up">

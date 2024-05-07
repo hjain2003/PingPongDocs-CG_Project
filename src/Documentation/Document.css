@@ -82,11 +82,18 @@ li {
 #objectives,
 #challenges,
 #resources,
-#member-roles {
+#member-roles,
+#static_mov{
     margin-left: 8vw;
     font-size: 16.5;
 }
 
+#static_mov ul li{
+    color: white;
+}
+#static_mov ul li span{
+    color: rgb(201, 201, 201);
+}
 
 #make_it_white {
     color: white;
